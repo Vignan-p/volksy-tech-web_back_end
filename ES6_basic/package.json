@@ -1,0 +1,22 @@
+{
+  "name": "ES6_basic_2",
+  "version": "1.0.0",
+  "description": "Hello",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "babel-jest": "^29.4.3",
+    "eslint": "^8.35.0",
+    "jest": "^29.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint",
+    "check-lint": "lint [0-9]*.js",
+    "dev": "npx babel-node",
+    "test": "jest",
+    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
