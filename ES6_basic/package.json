@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Hello",
   "main": ".eslintrc.js",
+  "type":"module",
   "dependencies": {
     "babel-jest": "^29.4.3",
     "eslint": "^8.35.0",
